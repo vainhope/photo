@@ -1,0 +1,14 @@
+package: goweb
+import:
+  - package: github.com/gin-gonic/gin
+    version: v1.3.0
+    subpackages:
+      - binding
+  - package: github.com/jinzhu/gorm
+    version: v1.9.2
+    subpackages:
+      - dialects/mysql
+  - package: gopkg.in/go-playground/validator.v8
+    version: v9.27.0
+  - package: github.com/dgrijalva/jwt-go
+    version: v3.2.0

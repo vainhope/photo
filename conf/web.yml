@@ -1,0 +1,11 @@
+database:
+  host:
+  user:
+  password:
+  schemas: vain-photo
+server:
+  port: 9999
+  timeout: 60
+jwt:
+  secret: vain
+  expireTime: 10080
